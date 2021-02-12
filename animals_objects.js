@@ -38,7 +38,6 @@ function prepareObjects(jsonData) {
     animal.desc = wordByWord[2];
     animal.type = wordByWord[3];
     animal.age = jsonObject.age;
-
     
   });
 
