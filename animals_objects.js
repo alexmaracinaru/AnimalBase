@@ -7,10 +7,10 @@ const allAnimals = [];
 // ----- P R O T O T Y P E ------
 
 const Animal = {
-name:"",
-desc:'unknown'
-type:"",
-age: 0
+  name: "unknown",
+  type: "unknown",
+  desc: "unknown",
+  age: 0,
 };
 
 function start() {
@@ -33,12 +33,11 @@ function prepareObjects(jsonData) {
     // TODO: Create new object with cleaned data - and store that in the allAnimals array
     const animal = Object.create(Animal);
     // TODO: MISSING CODE HERE !!!
-    const wordByWord = jsonObject.fullname.split(' ');
+    const wordByWord = jsonObject.fullname.split(" ");
     animal.name = wordByWord[0];
     animal.desc = wordByWord[2];
     animal.type = wordByWord[3];
     animal.age = jsonObject.age;
-    
   });
 
   displayList();
