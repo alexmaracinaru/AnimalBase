@@ -4,21 +4,20 @@ padding: 0;
 box-sizing: border-box;
 }
 body {
-    background-color: #93A676;
+    background-color: gray;
 }
 h1{
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     text-align: center;
     margin-top: 150px;
 
 }
 #list {
-    
     color: white;
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     margin:auto;
     margin-top: 20px;
     padding: 70px;
@@ -28,10 +27,8 @@ h1{
 
 #list tbody tr td {
     padding: 3px 20px;
-    font-size: 18px;
   }
 
 #list thead tr th{
-    font-weight: 300;
-    padding-right: 30px;
+    padding-right: 65px;
 }
